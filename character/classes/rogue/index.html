@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="rgb(216, 25, 33)">
+        <meta name="description" content="A web-based version of the 5th Edition SRD (System Reference Document)">
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+
+        <title>Rogue - 5th Edition SRD</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+        <link rel="stylesheet" href="/css/site.min.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-72655850-1', '5thsrd.org');
+            ga('send', 'pageview');
+        </script>
+        
+        
+    </head>
+
+    <body>
+        <div id="content" class="pure-g">
+                <div id="top-nav" class="pure-menu pure-u-1 pure-u-lg-1-6">
+    <span class="pure-menu-heading pure-g ">
+        <a href="/" class="pure-u-1-3" class="pure-menu-link" id="home-link">5thSRD</a>
+        <div class="pure-u-2-3" id="menu-toggle">
+            <a class="pure-button button-small" href="javascript:void(0);" onclick="toggleMainNav()">
+                <svg viewBox="0 0 100 80" width="15" height="15">
+                    <rect width="100" height="20" fill="white"></rect>
+                    <rect y="30" width="100" height="20" fill="white"></rect>
+                    <rect y="60" width="100" height="20" fill="white"></rect>
+                </svg>
+            </a>
+        </div>
+    </span>
+    <ul class="pure-menu-list" id="main-nav-body">
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Adventuring</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/between_adventures/" class="pure-menu-link">Between Adventures</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/movement/" class="pure-menu-link">Movement</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/planes_of_existence/" class="pure-menu-link">The Planes of Existence</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/resting/" class="pure-menu-link">Resting</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/the_environment/" class="pure-menu-link">The Environment</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/time/" class="pure-menu-link">Time</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Equipment</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/adventuring_gear/" class="pure-menu-link">Adventuring Gear</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/armor/" class="pure-menu-link">Armor</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/coins/" class="pure-menu-link">Coins</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/equipment_packs/" class="pure-menu-link">Equipment packs</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/mounts_and_vehicles/" class="pure-menu-link">Mounts and Vehicles</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/selling_treasure/" class="pure-menu-link">Selling Treasure</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/tools/" class="pure-menu-link">Tools</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/trade_goods/" class="pure-menu-link">Trade Goods</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/weapons/" class="pure-menu-link">Weapons</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item pure-menu-selected pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Character</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../alignment/" class="pure-menu-link">Alignment</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../backgrounds/" class="pure-menu-link">Backgrounds</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../fantasy-historical_pantheons/" class="pure-menu-link">Fantasy-Historical Pantheons</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../languages/" class="pure-menu-link">Languages</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Classes</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../barbarian/" class="pure-menu-link">Barbarian</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../bard/" class="pure-menu-link">Bard</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../cleric/" class="pure-menu-link">Cleric</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../druid/" class="pure-menu-link">Druid</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../fighter/" class="pure-menu-link">Fighter</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../monk/" class="pure-menu-link">Monk</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../paladin/" class="pure-menu-link">Paladin</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../ranger/" class="pure-menu-link">Ranger</a>
+</li>
+
+      
+        
+<li class="pure-menu-item pure-menu-selected">
+  <a href="./" class="pure-menu-link">Rogue</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../sorcerer/" class="pure-menu-link">Sorcerer</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../warlock/" class="pure-menu-link">Warlock</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../wizard/" class="pure-menu-link">Wizard</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Races</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/dragonborn/" class="pure-menu-link">Dragonborn</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/dwarf/" class="pure-menu-link">Dwarf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/elf/" class="pure-menu-link">Elf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/gnome/" class="pure-menu-link">Gnome</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/half-elf/" class="pure-menu-link">Half elf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/half-orc/" class="pure-menu-link">Half-Orc</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/halfling/" class="pure-menu-link">Halfling</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/human/" class="pure-menu-link">Human</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/tiefling/" class="pure-menu-link">Tiefling</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Combat</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/actions_in_combat/" class="pure-menu-link">Actions in Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/cover/" class="pure-menu-link">Cover</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/damage_and_healing/" class="pure-menu-link">Damage and Healing</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/making_an_attack/" class="pure-menu-link">Making an Attack</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/mounted_combat/" class="pure-menu-link">Mounted Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/movement_and_position/" class="pure-menu-link">Movement and Position</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/order_of_combat/" class="pure-menu-link">The Order of Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/underwater_combat/" class="pure-menu-link">Underwater Combat</a>
+</li>
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Gamemaster rules</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/diseases/" class="pure-menu-link">Diseases</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/legendary_creatures/" class="pure-menu-link">Legendary Creatures</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/madness/" class="pure-menu-link">Madness</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/magic_items/" class="pure-menu-link">Magic Items</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/monsters/" class="pure-menu-link">Monsters</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/nonplayer_characters/" class="pure-menu-link">Nonplayer Characters</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/objects/" class="pure-menu-link">Objects</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/poisons/" class="pure-menu-link">Poisons</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/sentient_magical_items/" class="pure-menu-link">Sentient Magic Items</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/traps/" class="pure-menu-link">Traps</a>
+</li>
+
+                        
+                            
+  
+  
+
+                        
+                            
+  
+  
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Templates</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/templates/halfdragon_template/" class="pure-menu-link">Half-Dragon Template</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Rules</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/advantage_and_disadvantage/" class="pure-menu-link">Advantage and Disadvantage</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/conditions/" class="pure-menu-link">Conditions</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/expenses/" class="pure-menu-link">Expenses</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/feats/" class="pure-menu-link">Feats</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/inspiration/" class="pure-menu-link">Inspiration</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/leveling_up/" class="pure-menu-link">Leveling Up</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/multiclassing/" class="pure-menu-link">Multiclassing</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/proficiency_bonus/" class="pure-menu-link">Proficiency Bonus</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Abilities</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/ability_checks/" class="pure-menu-link">Ability Checks</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/ability_scores/" class="pure-menu-link">Ability Scores</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/charisma/" class="pure-menu-link">Charisma</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/constitution/" class="pure-menu-link">Constitution</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/dexterity/" class="pure-menu-link">Dexterity</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/intelligence/" class="pure-menu-link">Intelligence</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/saving_throws/" class="pure-menu-link">Saving Throws</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/strength/" class="pure-menu-link">Strength</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/wisdom/" class="pure-menu-link">Wisdom</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Spellcasting</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../spellcasting/casting_a_spell/" class="pure-menu-link">Casting a Spell</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../spellcasting/what_is_a_spell/" class="pure-menu-link">What Is a Spell?</a>
+</li>
+
+                        
+                            
+  
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+        <li class="pure-menu-item">
+            <a href="/search/" class="pure-menu-link"> Search </a>
+        </li>
+    </ul>
+</div>
+                <div class="pure-u-1 pure-u-lg-5-6">
+                    <div class="l-box">
+                        <div id="toc" class="pure-menu">
+    <ul class="pure-menu-list">
+    
+        <span class="pure-menu-heading">Rogue</span>
+        
+        <li class="pure-menu-item ">
+            <a href="#the-rogue" class="pure-menu-link">The Rogue</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#class-features" class="pure-menu-link">Class Features</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#roguish-archetypes" class="pure-menu-link">Roguish Archetypes</a>
+        </li>
+        
+    
+    </ul>
+</div>
+
+                        <h1 id="rogue">Rogue</h1>
+<h2 id="the-rogue">The Rogue</h2>
+<div class="responsive-table"><table class="pure-table pure-table-striped">
+<thead>
+<tr>
+<th>Level</th>
+<th>Proficiency Bonus</th>
+<th>Sneak Attack</th>
+<th>Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1st</td>
+<td>+2</td>
+<td>1d6</td>
+<td>Expertise, Sneak Attack, Thieves' Cant</td>
+</tr>
+<tr>
+<td>2nd</td>
+<td>+2</td>
+<td>1d6</td>
+<td>Cunning Action</td>
+</tr>
+<tr>
+<td>3rd</td>
+<td>+2</td>
+<td>2d6</td>
+<td>Roguish Archetype</td>
+</tr>
+<tr>
+<td>4th</td>
+<td>+2</td>
+<td>2d6</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>5th</td>
+<td>+3</td>
+<td>3d6</td>
+<td>Uncanny Dodge</td>
+</tr>
+<tr>
+<td>6th</td>
+<td>+3</td>
+<td>3d6</td>
+<td>Expertise</td>
+</tr>
+<tr>
+<td>7th</td>
+<td>+3</td>
+<td>4d6</td>
+<td>Evasion</td>
+</tr>
+<tr>
+<td>8th</td>
+<td>+3</td>
+<td>4d6</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>9th</td>
+<td>+4</td>
+<td>5d6</td>
+<td>Roguish Archetype feature</td>
+</tr>
+<tr>
+<td>10th</td>
+<td>+4</td>
+<td>5d6</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>11th</td>
+<td>+4</td>
+<td>6d6</td>
+<td>Reliable Talent</td>
+</tr>
+<tr>
+<td>12th</td>
+<td>+4</td>
+<td>6d6</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>13th</td>
+<td>+5</td>
+<td>7d6</td>
+<td>Roguish Archetype Feature</td>
+</tr>
+<tr>
+<td>14th</td>
+<td>+5</td>
+<td>7d6</td>
+<td>Blindsense</td>
+</tr>
+<tr>
+<td>15th</td>
+<td>+5</td>
+<td>8d6</td>
+<td>Slippery Mind</td>
+</tr>
+<tr>
+<td>16th</td>
+<td>+5</td>
+<td>8d6</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>17th</td>
+<td>+6</td>
+<td>9d6</td>
+<td>Roguish Archetype feature</td>
+</tr>
+<tr>
+<td>18th</td>
+<td>+6</td>
+<td>9d6</td>
+<td>Elusive</td>
+</tr>
+<tr>
+<td>19th</td>
+<td>+6</td>
+<td>10d6</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>20th</td>
+<td>+6</td>
+<td>10d6</td>
+<td>Stroke of Luck</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="class-features">Class Features</h2>
+<p>As a rogue, you gain the following class features.</p>
+<h3 id="hit-points">Hit Points</h3>
+<p><strong>Hit Dice:</strong> 1d8 per rogue level<br />
+<strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per rogue level after 1st  </p>
+<h3 id="proficiencies">Proficiencies</h3>
+<p><strong>Armor:</strong> Light armor<br />
+<strong>Weapons:</strong> Simple weapons, hand crossbows, longswords, rapiers, shortswords<br />
+<strong>Tools:</strong> Thieves' tools  <br />
+<strong>Saving Throws:</strong> Dexterity, Intelligence <br />
+<strong>Skills:</strong> Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth  </p>
+<h3 id="equipment">Equipment</h3>
+<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+<ul>
+<li>(a) a rapier or (b) a shortsword </li>
+<li>(a) a shortbow and quiver of 20 arrows or (b) a shortsword</li>
+<li>(a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack</li>
+<li>(a) Leather armor, two daggers, and thieves' tools</li>
+</ul>
+<h3 id="expertise">Expertise</h3>
+<hr />
+<p>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. <br />
+At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit. </p>
+<h3 id="sneak-attack">Sneak Attack</h3>
+<hr />
+<p>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.  <br />
+You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.  <br />
+The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table. </p>
+<h3 id="thieves-cant">Thieves' Cant</h3>
+<hr />
+<p>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.  <br />
+In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run. </p>
+<h3 id="cunning-action">Cunning Action</h3>
+<hr />
+<p>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action. </p>
+<h3 id="roguish-archetype">Roguish Archetype</h3>
+<hr />
+<p>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level. </p>
+<h3 id="ability-score-improvement">Ability Score Improvement</h3>
+<hr />
+<p>When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. </p>
+<h3 id="uncanny-dodge">Uncanny Dodge</h3>
+<hr />
+<p>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you. </p>
+<h3 id="evasion">Evasion</h3>
+<hr />
+<p>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an <strong><em>ice storm</em></strong> spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. </p>
+<h3 id="reliable-talent">Reliable Talent</h3>
+<hr />
+<p>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10. </p>
+<h3 id="blindsense">Blindsense</h3>
+<hr />
+<p>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you. </p>
+<h3 id="slippery-mind">Slippery Mind</h3>
+<hr />
+<p>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws. </p>
+<h3 id="elusive">Elusive</h3>
+<p>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated. </p>
+<h3 id="stroke-of-luck">Stroke of Luck</h3>
+<hr />
+<p>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20. <br />
+Once you use this feature, you can't use it again until you finish a short or long rest. </p>
+<h2 id="roguish-archetypes">Roguish Archetypes</h2>
+<p>Rogues have many features in common, including their emphasis on perfecting their skills, their precise and deadly approach to combat, and their increasingly quick reflexes. But different rogues steer those talents in varying directions, embodied by the rogue archetypes. Your choice of archetype is a reflection of your focus - not necessarily an indication of your chosen profession, but a description of your preferred techniques. </p>
+<h3 id="thief">Thief</h3>
+<hr />
+<p>You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ. </p>
+<h4 id="fast-hands">Fast Hands</h4>
+<p>Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action. </p>
+<h4 id="second-story-work">Second-Story Work</h4>
+<p>When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.  <br />
+In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier. </p>
+<h4 id="supreme-sneak">Supreme Sneak</h4>
+<p>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn. </p>
+<h4 id="use-magic-device">Use Magic Device</h4>
+<p>By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items. </p>
+<h4 id="thiefs-reflexes">Thief's Reflexes</h4>
+<p>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</p>
+                    </div>
+                </div>
+        </div>
+
+        <footer>
+            <hr>
+            <div style="text-align: center; padding-left: 1em; padding-right: 1em;">
+                <p>Questions or comments can be directed to <a href="mailto:john@5thsrd.org">john@5thsrd.org</a>.</p>
+                
+                    <p>Rules provided by Wizards of the Coast under the <a href="/license">OGL 1.0a</a>.</p>
+                
+                <p>Check out the <a href="https://github.com/vitusventure/5thSRD/">GitHub</a> repo.  Website built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+                <p>Download the offline version of this site <a href="../../../5thsrd_offline.zip">here</a>.</p>
+            </div>
+        </footer>
+        <script src="/js/site.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="rgb(216, 25, 33)">
+        <meta name="description" content="A web-based version of the 5th Edition SRD (System Reference Document)">
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+        <title>Expenses - 5th Edition SRD</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+        <link rel="stylesheet" href="/css/site.min.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-72655850-1', '5thsrd.org');
+            ga('send', 'pageview');
+        </script>
+        
+        
+    </head>
+
+    <body>
+        <div id="content" class="pure-g">
+                <div id="top-nav" class="pure-menu pure-u-1 pure-u-lg-1-6">
+    <span class="pure-menu-heading pure-g ">
+        <a href="/" class="pure-u-1-3" class="pure-menu-link" id="home-link">5thSRD</a>
+        <div class="pure-u-2-3" id="menu-toggle">
+            <a class="pure-button button-small" href="javascript:void(0);" onclick="toggleMainNav()">
+                <svg viewBox="0 0 100 80" width="15" height="15">
+                    <rect width="100" height="20" fill="white"></rect>
+                    <rect y="30" width="100" height="20" fill="white"></rect>
+                    <rect y="60" width="100" height="20" fill="white"></rect>
+                </svg>
+            </a>
+        </div>
+    </span>
+    <ul class="pure-menu-list" id="main-nav-body">
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Adventuring</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/between_adventures/" class="pure-menu-link">Between Adventures</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/movement/" class="pure-menu-link">Movement</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/planes_of_existence/" class="pure-menu-link">The Planes of Existence</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/resting/" class="pure-menu-link">Resting</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/the_environment/" class="pure-menu-link">The Environment</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/time/" class="pure-menu-link">Time</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Equipment</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/adventuring_gear/" class="pure-menu-link">Adventuring Gear</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/armor/" class="pure-menu-link">Armor</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/coins/" class="pure-menu-link">Coins</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/equipment_packs/" class="pure-menu-link">Equipment packs</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/mounts_and_vehicles/" class="pure-menu-link">Mounts and Vehicles</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/selling_treasure/" class="pure-menu-link">Selling Treasure</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/tools/" class="pure-menu-link">Tools</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/trade_goods/" class="pure-menu-link">Trade Goods</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/weapons/" class="pure-menu-link">Weapons</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Character</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/alignment/" class="pure-menu-link">Alignment</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/backgrounds/" class="pure-menu-link">Backgrounds</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/fantasy-historical_pantheons/" class="pure-menu-link">Fantasy-Historical Pantheons</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/languages/" class="pure-menu-link">Languages</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Classes</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/barbarian/" class="pure-menu-link">Barbarian</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/bard/" class="pure-menu-link">Bard</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/cleric/" class="pure-menu-link">Cleric</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/druid/" class="pure-menu-link">Druid</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/fighter/" class="pure-menu-link">Fighter</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/monk/" class="pure-menu-link">Monk</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/paladin/" class="pure-menu-link">Paladin</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/ranger/" class="pure-menu-link">Ranger</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/rogue/" class="pure-menu-link">Rogue</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/sorcerer/" class="pure-menu-link">Sorcerer</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/warlock/" class="pure-menu-link">Warlock</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/wizard/" class="pure-menu-link">Wizard</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Races</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/dragonborn/" class="pure-menu-link">Dragonborn</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/dwarf/" class="pure-menu-link">Dwarf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/elf/" class="pure-menu-link">Elf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/gnome/" class="pure-menu-link">Gnome</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/half-elf/" class="pure-menu-link">Half elf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/half-orc/" class="pure-menu-link">Half-Orc</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/halfling/" class="pure-menu-link">Halfling</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/human/" class="pure-menu-link">Human</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/tiefling/" class="pure-menu-link">Tiefling</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Combat</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/actions_in_combat/" class="pure-menu-link">Actions in Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/cover/" class="pure-menu-link">Cover</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/damage_and_healing/" class="pure-menu-link">Damage and Healing</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/making_an_attack/" class="pure-menu-link">Making an Attack</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/mounted_combat/" class="pure-menu-link">Mounted Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/movement_and_position/" class="pure-menu-link">Movement and Position</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/order_of_combat/" class="pure-menu-link">The Order of Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/underwater_combat/" class="pure-menu-link">Underwater Combat</a>
+</li>
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Gamemaster rules</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/diseases/" class="pure-menu-link">Diseases</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/legendary_creatures/" class="pure-menu-link">Legendary Creatures</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/madness/" class="pure-menu-link">Madness</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/magic_items/" class="pure-menu-link">Magic Items</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/monsters/" class="pure-menu-link">Monsters</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/nonplayer_characters/" class="pure-menu-link">Nonplayer Characters</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/objects/" class="pure-menu-link">Objects</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/poisons/" class="pure-menu-link">Poisons</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/sentient_magical_items/" class="pure-menu-link">Sentient Magic Items</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/traps/" class="pure-menu-link">Traps</a>
+</li>
+
+                        
+                            
+  
+  
+
+                        
+                            
+  
+  
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Templates</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/templates/halfdragon_template/" class="pure-menu-link">Half-Dragon Template</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item pure-menu-selected pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Rules</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../advantage_and_disadvantage/" class="pure-menu-link">Advantage and Disadvantage</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../conditions/" class="pure-menu-link">Conditions</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item pure-menu-selected">
+  <a href="./" class="pure-menu-link">Expenses</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../feats/" class="pure-menu-link">Feats</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../inspiration/" class="pure-menu-link">Inspiration</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../leveling_up/" class="pure-menu-link">Leveling Up</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../multiclassing/" class="pure-menu-link">Multiclassing</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../proficiency_bonus/" class="pure-menu-link">Proficiency Bonus</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Abilities</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/ability_checks/" class="pure-menu-link">Ability Checks</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/ability_scores/" class="pure-menu-link">Ability Scores</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/charisma/" class="pure-menu-link">Charisma</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/constitution/" class="pure-menu-link">Constitution</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/dexterity/" class="pure-menu-link">Dexterity</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/intelligence/" class="pure-menu-link">Intelligence</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/saving_throws/" class="pure-menu-link">Saving Throws</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/strength/" class="pure-menu-link">Strength</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/wisdom/" class="pure-menu-link">Wisdom</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Spellcasting</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../spellcasting/casting_a_spell/" class="pure-menu-link">Casting a Spell</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../spellcasting/what_is_a_spell/" class="pure-menu-link">What Is a Spell?</a>
+</li>
+
+                        
+                            
+  
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+        <li class="pure-menu-item">
+            <a href="/search/" class="pure-menu-link"> Search </a>
+        </li>
+    </ul>
+</div>
+                <div class="pure-u-1 pure-u-lg-5-6">
+                    <div class="l-box">
+                        <div id="toc" class="pure-menu">
+    <ul class="pure-menu-list">
+    
+        <span class="pure-menu-heading">Expenses</span>
+        
+        <li class="pure-menu-item ">
+            <a href="#lifestyle-expenses" class="pure-menu-link">Lifestyle Expenses</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#food-drink-and-lodging" class="pure-menu-link">Food, Drink, and Lodging</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#services" class="pure-menu-link">Services</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#spellcasting-services" class="pure-menu-link">Spellcasting Services</a>
+        </li>
+        
+    
+    </ul>
+</div>
+
+                        <h1 id="expenses">Expenses</h1>
+<p>When not descending into the depths of the earth, exploring ruins for lost treasures, or waging war against the encroaching darkness, adventurers face more mundane realities. Even in a fantastical world, people require basic necessities such as shelter, sustenance, and clothing. These things cost money, although some lifestyles cost more than others. </p>
+<h2 id="lifestyle-expenses">Lifestyle Expenses</h2>
+<p>Lifestyle expenses provide you with a simple way to account for the cost of living in a fantasy world. They cover your accommodations, food and drink, and all your other necessities. Furthermore, expenses cover the cost of maintaining your equipment so you can be ready when adventure next calls.  <br />
+At the start of each week or month (your choice), choose a lifestyle from the Expenses table and pay the price to sustain that lifestyle. The prices listed are per day, so if you wish to calculate the cost of your chosen lifestyle over a thirty-day period, multiply the listed price by 30. Your lifestyle might change from one period to the next, based on the funds you have at your disposal, or you might maintain the same lifestyle throughout your character's career.  <br />
+Your lifestyle choice can have consequences. Maintaining a wealthy lifestyle might help you make contacts with the rich and powerful, though you run the risk of attracting thieves. Likewise, living frugally might help you avoid criminals, but you are unlikely to make powerful connections.</p>
+<div class="responsive-table"><table class="pure-table pure-table-striped">
+<thead>
+<tr>
+<th>Lifestyle</th>
+<th align="right">Price/Day</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wretched</td>
+<td align="right">-</td>
+</tr>
+<tr>
+<td>Squalid</td>
+<td align="right">1 sp</td>
+</tr>
+<tr>
+<td>Poor</td>
+<td align="right">2 sp</td>
+</tr>
+<tr>
+<td>Modest</td>
+<td align="right">1 gp</td>
+</tr>
+<tr>
+<td>Comfortable</td>
+<td align="right">2 gp</td>
+</tr>
+<tr>
+<td>Wealthy</td>
+<td align="right">4 gp</td>
+</tr>
+<tr>
+<td>Aristocratic</td>
+<td align="right">10 gp minimum</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Wretched.</strong> You live in inhumane conditions. With no place to call home, you shelter wherever you can, sneaking into barns, huddling in old crates, and relying on the good graces of people better off than you. A wretched lifestyle presents abundant dangers. Violence, disease, and hunger follow you wherever you go. Other wretched people covet your armor, weapons, and adventuring gear, which represent a fortune by their standards. You are beneath the notice of most people.  <br />
+<strong>Squalid.</strong> You live in a leaky stable, a mud-floored hut just outside town, or a vermin-infested boarding house in the worst part of town. You have shelter from the elements, but you live in a desperate and often violent environment, in places rife with disease, hunger, and misfortune. You are beneath the notice of most people, and you have few legal protections. Most people at this lifestyle level have suffered some terrible setback. They might be disturbed, marked as exiles, or suffer from disease.  <br />
+<strong>Poor.</strong> A poor lifestyle means going without the comforts available in a stable community. Simple food and lodgings, threadbare clothing, and unpredictable conditions result in a sufficient, though probably unpleasant, experience. Your accommodations might be a room in a flophouse or in the common room above a tavern. You benefit from some legal protections, but you still have to contend with violence, crime, and disease. People at this lifestyle level tend to be unskilled laborers, costermongers, peddlers, thieves, mercenaries, and other disreputable types.  <br />
+<strong>Modest.</strong> A modest lifestyle keeps you out of the slums and ensures that you can maintain your equipment. You live in an older part of town, renting a room in a boarding house, inn, or temple. You don't go hungry or thirsty, and your living conditions are clean, if simple. Ordinary people living modest lifestyles include soldiers with families, laborers, students, priests, hedge wizards, and the like.  <br />
+<strong>Comfortable.</strong> Choosing a comfortable lifestyle means that you can afford nicer clothing and can easily maintain your equipment. You live in a small cottage in a middle-class neighborhood or in a private room at a fine inn. You associate with merchants, skilled tradespeople, and military officers.  <br />
+<strong>Wealthy.</strong> Choosing a wealthy lifestyle means living a life of luxury, though you might not have achieved the social status associated with the old money of nobility or royalty. You live a lifestyle comparable to that of a highly successful merchant, a favored servant of the royalty, or the owner of a few small businesses. You have respectable lodgings, usually a spacious home in a good part of town or a comfortable suite at a fine inn. You likely have a small staff of servants.  <br />
+<strong>Aristocratic.</strong> You live a life of plenty and comfort. You move in circles populated by the most powerful people in the community. You have excellent lodgings, perhaps a townhouse in the nicest part of town or rooms in the finest inn. You dine at the best restaurants, retain the most skilled and fashionable tailor, and have servants attending to your every need. You receive invitations to the social gatherings of the rich and powerful, and spend evenings in the company of politicians, guild leaders, high priests, and nobility. You must also contend with the highest levels of deceit and treachery. The wealthier you are, the greater the chance you will be drawn into political intrigue as a pawn or participant.</p>
+<h3 id="self-sufficiency">Self-Sufficiency</h3>
+<p>The expenses and lifestyles described here assume that you are spending your time between adventures in town, availing yourself of whatever services you can afford--paying for food and shelter, paying townspeople to sharpen your sword and repair your armor, and so on. Some characters, though, might prefer to spend their time away from civilization, sustaining themselves in the wild by hunting, foraging, and repairing their own gear.  <br />
+Maintaining this kind of lifestyle doesn't require you to spend any coin, but it is time-consuming. If you spend your time between adventures practicing a profession, you can eke out the equivalent of a poor lifestyle. Proficiency in the Survival skill lets you live at the equivalent of a comfortable lifestyle.</p>
+<h2 id="food-drink-and-lodging">Food, Drink, and Lodging</h2>
+<p>The Food, Drink, and Lodging table gives prices for individual food items and a single night's lodging. These prices are included in your total lifestyle expenses.</p>
+<p><strong>Food and Drink</strong></p>
+<div class="responsive-table"><table class="pure-table pure-table-striped">
+<thead>
+<tr>
+<th>Item</th>
+<th align="right">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ale (gallon)</td>
+<td align="right">2 sp</td>
+</tr>
+<tr>
+<td>Ale (mug)</td>
+<td align="right">4 cp</td>
+</tr>
+<tr>
+<td>Banquet (per person)</td>
+<td align="right">10 gp</td>
+</tr>
+<tr>
+<td>Bread, loaf</td>
+<td align="right">2 cp</td>
+</tr>
+<tr>
+<td>Cheese, hunk</td>
+<td align="right">1 sp</td>
+</tr>
+<tr>
+<td>Meat, chunk</td>
+<td align="right">3 sp</td>
+</tr>
+<tr>
+<td>Wine, common (pitcher)</td>
+<td align="right">2 sp</td>
+</tr>
+<tr>
+<td>Wine, fine (bottle)</td>
+<td align="right">10 gp</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Meals and Lodging (per day)</strong></p>
+<div class="responsive-table"><table class="pure-table pure-table-striped">
+<thead>
+<tr>
+<th>Item</th>
+<th align="right">Meals Cost</th>
+<th align="right">Lodging Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Squalid</td>
+<td align="right">3 cp</td>
+<td align="right">7 cp</td>
+</tr>
+<tr>
+<td>Poor</td>
+<td align="right">6 cp</td>
+<td align="right">1 sp</td>
+</tr>
+<tr>
+<td>Modest</td>
+<td align="right">3 sp</td>
+<td align="right">5 sp</td>
+</tr>
+<tr>
+<td>Comfortable</td>
+<td align="right">5 sp</td>
+<td align="right">8 sp</td>
+</tr>
+<tr>
+<td>Wealthy</td>
+<td align="right">8 sp</td>
+<td align="right">2 gp</td>
+</tr>
+<tr>
+<td>Aristocratic</td>
+<td align="right">2 gp</td>
+<td align="right">4 gp</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="services">Services</h2>
+<p>Adventurers can pay nonplayer characters to assist them or act on their behalf in a variety of circumstances. Most such hirelings have fairly ordinary skills, while others are masters of a craft or art, and a few are experts with specialized adventuring skills.  <br />
+Some of the most basic types of hirelings appear on the Services table. Other common hirelings include any of the wide variety of people who inhabit a typical town or city, when the adventurers pay them to perform a specific task. For example, a wizard might pay a carpenter to construct an elaborate chest (and its miniature replica) for use in the secret chest spell. A fighter might commission a blacksmith to forge a special sword. A bard might pay a tailor to make exquisite clothing for an upcoming performance in front of the duke.  <br />
+Other hirelings provide more expert or dangerous services. Mercenary soldiers paid to help the adventurers take on a hobgoblin army are hirelings, as are sages hired to research ancient or esoteric lore. If a high-level adventurer establishes a stronghold of some kind, he or she might hire a whole staff of servants and agents to run the place, from a castellan or steward to menial laborers to keep the stables clean. These hirelings often enjoy a long-term contract that includes a place to live within the stronghold as part of the offered compensation.</p>
+<div class="responsive-table"><table class="pure-table pure-table-striped">
+<thead>
+<tr>
+<th>Service</th>
+<th>Pay</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coach cab (Between towns)</td>
+<td>3 cp per mile</td>
+</tr>
+<tr>
+<td>Coach cab (Within a city)</td>
+<td>1 cp</td>
+</tr>
+<tr>
+<td>Hireling (Skilled)</td>
+<td>2 gp per day</td>
+</tr>
+<tr>
+<td>Hireling (Untrained)</td>
+<td>2 sp per day</td>
+</tr>
+<tr>
+<td>Messenger</td>
+<td>2 cp per mile</td>
+</tr>
+<tr>
+<td>Road or gate toll</td>
+<td>1 cp</td>
+</tr>
+<tr>
+<td>Ship's passage</td>
+<td>1 sp per mile</td>
+</tr>
+</tbody>
+</table></div>
+<p>Skilled hirelings include anyone hired to perform a service that involves a proficiency (including weapon, tool, or skill): a mercenary, artisan, scribe, and so on. The pay shown is a minimum; some expert hirelings require more pay. Untrained hirelings are hired for menial work that requires no particular skill and can include laborers, porters, maids, and similar workers. </p>
+<h2 id="spellcasting-services">Spellcasting Services</h2>
+<p>People who are able to cast spells don't fall into the category of ordinary hirelings. It might be possible to find someone willing to cast a spell in exchange for coin or favors, but it is rarely easy and no established pay rates exist. As a rule, the higher the level of the desired spell, the harder it is to find someone who can cast it and the more it costs.  <br />
+Hiring someone to cast a relatively common spell of 1st or 2nd level, such as <strong><em>cure wounds</em></strong> or <strong><em>identify</em></strong>, is easy enough in a city or town, and might cost 10 to 50 gold pieces (plus the cost of any expensive material components). Finding someone able and willing to cast a higher-level spell might involve traveling to a large city, perhaps one with a university or prominent temple. Once found, the spellcaster might ask for a service instead of payment--the kind of service that only adventurers can provide, such as retrieving a rare item from a dangerous locale or traversing a monster-infested wilderness to deliver something important to a distant settlement.</p>
+                    </div>
+                </div>
+        </div>
+
+        <footer>
+            <hr>
+            <div style="text-align: center; padding-left: 1em; padding-right: 1em;">
+                <p>Questions or comments can be directed to <a href="mailto:john@5thsrd.org">john@5thsrd.org</a>.</p>
+                
+                    <p>Rules provided by Wizards of the Coast under the <a href="/license">OGL 1.0a</a>.</p>
+                
+                <p>Check out the <a href="https://github.com/vitusventure/5thSRD/">GitHub</a> repo.  Website built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+                <p>Download the offline version of this site <a href="../../5thsrd_offline.zip">here</a>.</p>
+            </div>
+        </footer>
+        <script src="/js/site.min.js"></script>
+    </body>
+</html>

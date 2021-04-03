@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="rgb(216, 25, 33)">
+        <meta name="description" content="A web-based version of the 5th Edition SRD (System Reference Document)">
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+        <title>Conditions - 5th Edition SRD</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+        <link rel="stylesheet" href="/css/site.min.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-72655850-1', '5thsrd.org');
+            ga('send', 'pageview');
+        </script>
+        
+        
+    </head>
+
+    <body>
+        <div id="content" class="pure-g">
+                <div id="top-nav" class="pure-menu pure-u-1 pure-u-lg-1-6">
+    <span class="pure-menu-heading pure-g ">
+        <a href="/" class="pure-u-1-3" class="pure-menu-link" id="home-link">5thSRD</a>
+        <div class="pure-u-2-3" id="menu-toggle">
+            <a class="pure-button button-small" href="javascript:void(0);" onclick="toggleMainNav()">
+                <svg viewBox="0 0 100 80" width="15" height="15">
+                    <rect width="100" height="20" fill="white"></rect>
+                    <rect y="30" width="100" height="20" fill="white"></rect>
+                    <rect y="60" width="100" height="20" fill="white"></rect>
+                </svg>
+            </a>
+        </div>
+    </span>
+    <ul class="pure-menu-list" id="main-nav-body">
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Adventuring</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/between_adventures/" class="pure-menu-link">Between Adventures</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/movement/" class="pure-menu-link">Movement</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/planes_of_existence/" class="pure-menu-link">The Planes of Existence</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/resting/" class="pure-menu-link">Resting</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/the_environment/" class="pure-menu-link">The Environment</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/time/" class="pure-menu-link">Time</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Equipment</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/adventuring_gear/" class="pure-menu-link">Adventuring Gear</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/armor/" class="pure-menu-link">Armor</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/coins/" class="pure-menu-link">Coins</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/equipment_packs/" class="pure-menu-link">Equipment packs</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/mounts_and_vehicles/" class="pure-menu-link">Mounts and Vehicles</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/selling_treasure/" class="pure-menu-link">Selling Treasure</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/tools/" class="pure-menu-link">Tools</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/trade_goods/" class="pure-menu-link">Trade Goods</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/weapons/" class="pure-menu-link">Weapons</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Character</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/alignment/" class="pure-menu-link">Alignment</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/backgrounds/" class="pure-menu-link">Backgrounds</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/fantasy-historical_pantheons/" class="pure-menu-link">Fantasy-Historical Pantheons</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/languages/" class="pure-menu-link">Languages</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Classes</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/barbarian/" class="pure-menu-link">Barbarian</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/bard/" class="pure-menu-link">Bard</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/cleric/" class="pure-menu-link">Cleric</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/druid/" class="pure-menu-link">Druid</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/fighter/" class="pure-menu-link">Fighter</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/monk/" class="pure-menu-link">Monk</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/paladin/" class="pure-menu-link">Paladin</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/ranger/" class="pure-menu-link">Ranger</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/rogue/" class="pure-menu-link">Rogue</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/sorcerer/" class="pure-menu-link">Sorcerer</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/warlock/" class="pure-menu-link">Warlock</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/wizard/" class="pure-menu-link">Wizard</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Races</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/dragonborn/" class="pure-menu-link">Dragonborn</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/dwarf/" class="pure-menu-link">Dwarf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/elf/" class="pure-menu-link">Elf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/gnome/" class="pure-menu-link">Gnome</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/half-elf/" class="pure-menu-link">Half elf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/half-orc/" class="pure-menu-link">Half-Orc</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/halfling/" class="pure-menu-link">Halfling</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/human/" class="pure-menu-link">Human</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/tiefling/" class="pure-menu-link">Tiefling</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Combat</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/actions_in_combat/" class="pure-menu-link">Actions in Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/cover/" class="pure-menu-link">Cover</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/damage_and_healing/" class="pure-menu-link">Damage and Healing</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/making_an_attack/" class="pure-menu-link">Making an Attack</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/mounted_combat/" class="pure-menu-link">Mounted Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/movement_and_position/" class="pure-menu-link">Movement and Position</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/order_of_combat/" class="pure-menu-link">The Order of Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/underwater_combat/" class="pure-menu-link">Underwater Combat</a>
+</li>
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Gamemaster rules</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/diseases/" class="pure-menu-link">Diseases</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/legendary_creatures/" class="pure-menu-link">Legendary Creatures</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/madness/" class="pure-menu-link">Madness</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/magic_items/" class="pure-menu-link">Magic Items</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/monsters/" class="pure-menu-link">Monsters</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/nonplayer_characters/" class="pure-menu-link">Nonplayer Characters</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/objects/" class="pure-menu-link">Objects</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/poisons/" class="pure-menu-link">Poisons</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/sentient_magical_items/" class="pure-menu-link">Sentient Magic Items</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/traps/" class="pure-menu-link">Traps</a>
+</li>
+
+                        
+                            
+  
+  
+
+                        
+                            
+  
+  
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Templates</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../gamemaster_rules/templates/halfdragon_template/" class="pure-menu-link">Half-Dragon Template</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item pure-menu-selected pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Rules</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../advantage_and_disadvantage/" class="pure-menu-link">Advantage and Disadvantage</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item pure-menu-selected">
+  <a href="./" class="pure-menu-link">Conditions</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../expenses/" class="pure-menu-link">Expenses</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../feats/" class="pure-menu-link">Feats</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../inspiration/" class="pure-menu-link">Inspiration</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../leveling_up/" class="pure-menu-link">Leveling Up</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../multiclassing/" class="pure-menu-link">Multiclassing</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../proficiency_bonus/" class="pure-menu-link">Proficiency Bonus</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Abilities</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/ability_checks/" class="pure-menu-link">Ability Checks</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/ability_scores/" class="pure-menu-link">Ability Scores</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/charisma/" class="pure-menu-link">Charisma</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/constitution/" class="pure-menu-link">Constitution</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/dexterity/" class="pure-menu-link">Dexterity</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/intelligence/" class="pure-menu-link">Intelligence</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/saving_throws/" class="pure-menu-link">Saving Throws</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/strength/" class="pure-menu-link">Strength</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../abilities/wisdom/" class="pure-menu-link">Wisdom</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Spellcasting</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../spellcasting/casting_a_spell/" class="pure-menu-link">Casting a Spell</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../spellcasting/what_is_a_spell/" class="pure-menu-link">What Is a Spell?</a>
+</li>
+
+                        
+                            
+  
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+        <li class="pure-menu-item">
+            <a href="/search/" class="pure-menu-link"> Search </a>
+        </li>
+    </ul>
+</div>
+                <div class="pure-u-1 pure-u-lg-5-6">
+                    <div class="l-box">
+                        <div id="toc" class="pure-menu">
+    <ul class="pure-menu-list">
+    
+        <span class="pure-menu-heading">Conditions</span>
+        
+        <li class="pure-menu-item ">
+            <a href="#blinded" class="pure-menu-link">Blinded</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#charmed" class="pure-menu-link">Charmed</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#deafened" class="pure-menu-link">Deafened</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#exhaustion" class="pure-menu-link">Exhaustion</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#frightened" class="pure-menu-link">Frightened</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#grappled" class="pure-menu-link">Grappled</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#incapacitated" class="pure-menu-link">Incapacitated</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#invisible" class="pure-menu-link">Invisible</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#paralyzed" class="pure-menu-link">Paralyzed</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#petrified" class="pure-menu-link">Petrified</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#poisoned" class="pure-menu-link">Poisoned</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#prone" class="pure-menu-link">Prone</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#restrained" class="pure-menu-link">Restrained</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#stunned" class="pure-menu-link">Stunned</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#unconscious" class="pure-menu-link">Unconscious</a>
+        </li>
+        
+    
+    </ul>
+</div>
+
+                        <h1 id="conditions">Conditions</h1>
+<p>Conditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blinded, are impairments, but a few, such as invisible, can be advantageous.  <br />
+A condition lasts either until it is countered (the prone condition is countered by standing up, for example) or for a duration specified by the effect that imposed the condition.  <br />
+If multiple effects impose the same condition on a creature, each instance of the condition has its own duration, but the condition's effects don't get worse. A creature either has a condition or doesn't.  <br />
+The following definitions specify what happens to a creature while it is subjected to a condition. </p>
+<h3 id="blinded">Blinded</h3>
+<ul>
+<li>A blinded creature can't see and automatically fails any ability check that requires sight.</li>
+<li>Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage. </li>
+</ul>
+<h3 id="charmed">Charmed</h3>
+<ul>
+<li>A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.</li>
+<li>The charmer has advantage on any ability check to interact socially with the creature. </li>
+</ul>
+<h3 id="deafened">Deafened</h3>
+<ul>
+<li>A deafened creature can't hear and automatically fails any ability check that requires hearing. </li>
+</ul>
+<h3 id="exhaustion">Exhaustion</h3>
+<p>Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description. </p>
+<div class="responsive-table"><table class="pure-table pure-table-striped">
+<thead>
+<tr>
+<th>Level</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Disadvantage on ability checks</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Speed halved</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Disadvantage on attack rolls and saving throws</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Hit point maximum halved</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Speed reduced to 0</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Death</td>
+</tr>
+</tbody>
+</table></div>
+<p>If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.  <br />
+A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.  <br />
+An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.  <br />
+Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink. </p>
+<h3 id="frightened">Frightened</h3>
+<ul>
+<li>A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</li>
+<li>The creature can't willingly move closer to the source of its fear. </li>
+</ul>
+<h3 id="grappled">Grappled</h3>
+<ul>
+<li>A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.</li>
+<li>The condition ends if the grappler is incapacitated (see the condition).</li>
+<li>The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the <strong><em>thunder-wave</em></strong> spell. </li>
+</ul>
+<h3 id="incapacitated">Incapacitated</h3>
+<ul>
+<li>An incapacitated creature can't take actions or reactions. </li>
+</ul>
+<h3 id="invisible">Invisible</h3>
+<ul>
+<li>An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.</li>
+<li>Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage. </li>
+</ul>
+<h3 id="paralyzed">Paralyzed</h3>
+<ul>
+<li>A paralyzed creature is incapacitated (see the condition) and can't move or speak.</li>
+<li>The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage.</li>
+<li>Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature. </li>
+</ul>
+<h3 id="petrified">Petrified</h3>
+<ul>
+<li>A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.</li>
+<li>The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.</li>
+<li>Attack rolls against the creature have advantage.</li>
+<li>The creature automatically fails Strength and Dexterity saving throws.</li>
+<li>The creature has resistance to all damage.</li>
+<li>The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized. </li>
+</ul>
+<h3 id="poisoned">Poisoned</h3>
+<ul>
+<li>A poisoned creature has disadvantage on attack rolls and ability checks. </li>
+</ul>
+<h3 id="prone">Prone</h3>
+<ul>
+<li>A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.</li>
+<li>The creature has disadvantage on attack rolls.</li>
+<li>An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage. </li>
+</ul>
+<h3 id="restrained">Restrained</h3>
+<ul>
+<li>A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.</li>
+<li>Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.</li>
+<li>The creature has disadvantage on Dexterity saving throws. </li>
+</ul>
+<h3 id="stunned">Stunned</h3>
+<ul>
+<li>A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.</li>
+<li>The creature automatically fails Strength and Dexterity saving throws.</li>
+<li>Attack rolls against the creature have advantage. </li>
+</ul>
+<h3 id="unconscious">Unconscious</h3>
+<ul>
+<li>An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings</li>
+<li>The creature drops whatever it's holding and falls prone.</li>
+<li>The creature automatically fails Strength and Dexterity saving throws.</li>
+<li>Attack rolls against the creature have advantage.</li>
+<li>Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.</li>
+</ul>
+                    </div>
+                </div>
+        </div>
+
+        <footer>
+            <hr>
+            <div style="text-align: center; padding-left: 1em; padding-right: 1em;">
+                <p>Questions or comments can be directed to <a href="mailto:john@5thsrd.org">john@5thsrd.org</a>.</p>
+                
+                    <p>Rules provided by Wizards of the Coast under the <a href="/license">OGL 1.0a</a>.</p>
+                
+                <p>Check out the <a href="https://github.com/vitusventure/5thSRD/">GitHub</a> repo.  Website built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+                <p>Download the offline version of this site <a href="../../5thsrd_offline.zip">here</a>.</p>
+            </div>
+        </footer>
+        <script src="/js/site.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="rgb(216, 25, 33)">
+        <meta name="description" content="A web-based version of the 5th Edition SRD (System Reference Document)">
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+
+        <title>Fighter - 5th Edition SRD</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+        <link rel="stylesheet" href="/css/site.min.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-72655850-1', '5thsrd.org');
+            ga('send', 'pageview');
+        </script>
+        
+        
+    </head>
+
+    <body>
+        <div id="content" class="pure-g">
+                <div id="top-nav" class="pure-menu pure-u-1 pure-u-lg-1-6">
+    <span class="pure-menu-heading pure-g ">
+        <a href="/" class="pure-u-1-3" class="pure-menu-link" id="home-link">5thSRD</a>
+        <div class="pure-u-2-3" id="menu-toggle">
+            <a class="pure-button button-small" href="javascript:void(0);" onclick="toggleMainNav()">
+                <svg viewBox="0 0 100 80" width="15" height="15">
+                    <rect width="100" height="20" fill="white"></rect>
+                    <rect y="30" width="100" height="20" fill="white"></rect>
+                    <rect y="60" width="100" height="20" fill="white"></rect>
+                </svg>
+            </a>
+        </div>
+    </span>
+    <ul class="pure-menu-list" id="main-nav-body">
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Adventuring</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/between_adventures/" class="pure-menu-link">Between Adventures</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/movement/" class="pure-menu-link">Movement</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/planes_of_existence/" class="pure-menu-link">The Planes of Existence</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/resting/" class="pure-menu-link">Resting</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/the_environment/" class="pure-menu-link">The Environment</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/time/" class="pure-menu-link">Time</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Equipment</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/adventuring_gear/" class="pure-menu-link">Adventuring Gear</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/armor/" class="pure-menu-link">Armor</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/coins/" class="pure-menu-link">Coins</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/equipment_packs/" class="pure-menu-link">Equipment packs</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/mounts_and_vehicles/" class="pure-menu-link">Mounts and Vehicles</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/selling_treasure/" class="pure-menu-link">Selling Treasure</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/tools/" class="pure-menu-link">Tools</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/trade_goods/" class="pure-menu-link">Trade Goods</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../adventuring/equipment/weapons/" class="pure-menu-link">Weapons</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item pure-menu-selected pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Character</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../alignment/" class="pure-menu-link">Alignment</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../backgrounds/" class="pure-menu-link">Backgrounds</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../fantasy-historical_pantheons/" class="pure-menu-link">Fantasy-Historical Pantheons</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../languages/" class="pure-menu-link">Languages</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Classes</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../barbarian/" class="pure-menu-link">Barbarian</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../bard/" class="pure-menu-link">Bard</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../cleric/" class="pure-menu-link">Cleric</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../druid/" class="pure-menu-link">Druid</a>
+</li>
+
+      
+        
+<li class="pure-menu-item pure-menu-selected">
+  <a href="./" class="pure-menu-link">Fighter</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../monk/" class="pure-menu-link">Monk</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../paladin/" class="pure-menu-link">Paladin</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../ranger/" class="pure-menu-link">Ranger</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../rogue/" class="pure-menu-link">Rogue</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../sorcerer/" class="pure-menu-link">Sorcerer</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../warlock/" class="pure-menu-link">Warlock</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../wizard/" class="pure-menu-link">Wizard</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Races</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/dragonborn/" class="pure-menu-link">Dragonborn</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/dwarf/" class="pure-menu-link">Dwarf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/elf/" class="pure-menu-link">Elf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/gnome/" class="pure-menu-link">Gnome</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/half-elf/" class="pure-menu-link">Half elf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/half-orc/" class="pure-menu-link">Half-Orc</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/halfling/" class="pure-menu-link">Halfling</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/human/" class="pure-menu-link">Human</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../races/tiefling/" class="pure-menu-link">Tiefling</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Combat</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/actions_in_combat/" class="pure-menu-link">Actions in Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/cover/" class="pure-menu-link">Cover</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/damage_and_healing/" class="pure-menu-link">Damage and Healing</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/making_an_attack/" class="pure-menu-link">Making an Attack</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/mounted_combat/" class="pure-menu-link">Mounted Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/movement_and_position/" class="pure-menu-link">Movement and Position</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/order_of_combat/" class="pure-menu-link">The Order of Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../combat/underwater_combat/" class="pure-menu-link">Underwater Combat</a>
+</li>
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Gamemaster rules</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/diseases/" class="pure-menu-link">Diseases</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/legendary_creatures/" class="pure-menu-link">Legendary Creatures</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/madness/" class="pure-menu-link">Madness</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/magic_items/" class="pure-menu-link">Magic Items</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/monsters/" class="pure-menu-link">Monsters</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/nonplayer_characters/" class="pure-menu-link">Nonplayer Characters</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/objects/" class="pure-menu-link">Objects</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/poisons/" class="pure-menu-link">Poisons</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/sentient_magical_items/" class="pure-menu-link">Sentient Magic Items</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/traps/" class="pure-menu-link">Traps</a>
+</li>
+
+                        
+                            
+  
+  
+
+                        
+                            
+  
+  
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Templates</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../gamemaster_rules/templates/halfdragon_template/" class="pure-menu-link">Half-Dragon Template</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Rules</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/advantage_and_disadvantage/" class="pure-menu-link">Advantage and Disadvantage</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/conditions/" class="pure-menu-link">Conditions</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/expenses/" class="pure-menu-link">Expenses</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/feats/" class="pure-menu-link">Feats</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/inspiration/" class="pure-menu-link">Inspiration</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/leveling_up/" class="pure-menu-link">Leveling Up</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/multiclassing/" class="pure-menu-link">Multiclassing</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../rules/proficiency_bonus/" class="pure-menu-link">Proficiency Bonus</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Abilities</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/ability_checks/" class="pure-menu-link">Ability Checks</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/ability_scores/" class="pure-menu-link">Ability Scores</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/charisma/" class="pure-menu-link">Charisma</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/constitution/" class="pure-menu-link">Constitution</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/dexterity/" class="pure-menu-link">Dexterity</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/intelligence/" class="pure-menu-link">Intelligence</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/saving_throws/" class="pure-menu-link">Saving Throws</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/strength/" class="pure-menu-link">Strength</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../../rules/abilities/wisdom/" class="pure-menu-link">Wisdom</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Spellcasting</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../spellcasting/casting_a_spell/" class="pure-menu-link">Casting a Spell</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../../spellcasting/what_is_a_spell/" class="pure-menu-link">What Is a Spell?</a>
+</li>
+
+                        
+                            
+  
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+        <li class="pure-menu-item">
+            <a href="/search/" class="pure-menu-link"> Search </a>
+        </li>
+    </ul>
+</div>
+                <div class="pure-u-1 pure-u-lg-5-6">
+                    <div class="l-box">
+                        <div id="toc" class="pure-menu">
+    <ul class="pure-menu-list">
+    
+        <span class="pure-menu-heading">Fighter</span>
+        
+        <li class="pure-menu-item ">
+            <a href="#class-table" class="pure-menu-link">Class Table</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#class-features" class="pure-menu-link">Class Features</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#martial-archetypes" class="pure-menu-link">Martial Archetypes</a>
+        </li>
+        
+    
+    </ul>
+</div>
+
+                        <h1 id="fighter">Fighter</h1>
+<h2 id="class-table">Class Table</h2>
+<div class="responsive-table"><table class="pure-table pure-table-striped">
+<thead>
+<tr>
+<th>Level</th>
+<th>Proficiency Bonus</th>
+<th>Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1st</td>
+<td>+2</td>
+<td>Fighting Style, Second Wind</td>
+</tr>
+<tr>
+<td>2nd</td>
+<td>+2</td>
+<td>Action Surge (one use)</td>
+</tr>
+<tr>
+<td>3rd</td>
+<td>+2</td>
+<td>Martial Archetype</td>
+</tr>
+<tr>
+<td>4th</td>
+<td>+2</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>5th</td>
+<td>+3</td>
+<td>Extra Attack</td>
+</tr>
+<tr>
+<td>6th</td>
+<td>+3</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>7th</td>
+<td>+3</td>
+<td>Martial Archetype feature</td>
+</tr>
+<tr>
+<td>8th</td>
+<td>+3</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>9th</td>
+<td>+4</td>
+<td>Indomitable (one use)</td>
+</tr>
+<tr>
+<td>10th</td>
+<td>+4</td>
+<td>Martial Archetype feature</td>
+</tr>
+<tr>
+<td>11th</td>
+<td>+4</td>
+<td>Extra Attack (2)</td>
+</tr>
+<tr>
+<td>12th</td>
+<td>+4</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>13th</td>
+<td>+5</td>
+<td>Indomitable (two uses)</td>
+</tr>
+<tr>
+<td>14th</td>
+<td>+5</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>15th</td>
+<td>+5</td>
+<td>Martial Archetype feature</td>
+</tr>
+<tr>
+<td>16th</td>
+<td>+5</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>17th</td>
+<td>+6</td>
+<td>Action Surge (two uses), Indomitable (three uses)</td>
+</tr>
+<tr>
+<td>18th</td>
+<td>+6</td>
+<td>Martial Archetype Feature</td>
+</tr>
+<tr>
+<td>19th</td>
+<td>+6</td>
+<td>Ability Score Improvement</td>
+</tr>
+<tr>
+<td>20th</td>
+<td>+6</td>
+<td>Extra Attack (3)</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="class-features">Class Features</h2>
+<p>As a fighter, you gain the following class features.</p>
+<h3 id="hit-points">Hit Points</h3>
+<p><strong>Hit Dice:</strong> 1d10 per fighter level<br />
+<strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier<br />
+<strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per fighter level after 1st  </p>
+<h3 id="proficiencies">Proficiencies</h3>
+<p><strong>Armor:</strong> All armor, shields<br />
+<strong>Weapons:</strong> Simple weapons, martial weapons<br />
+<strong>Tools:</strong> None<br />
+<strong>Saving Throws:</strong> Strength, Constitution<br />
+<strong>Skills:</strong> Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</p>
+<h3 id="equipment">Equipment</h3>
+<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+<ul>
+<li>(a) chain mail or (b) leather armor, longbow, and 20 arrows</li>
+<li>(a) a martial weapon and a shield or (b) two martial weapons</li>
+<li>(a) a light crossbow and 20 bolts or (b) two handaxes</li>
+<li>(a) a dungeoneer's pack or (b) and explorer's pack</li>
+</ul>
+<h3 id="fighting-style">Fighting Style</h3>
+<hr />
+<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
+<h4 id="archery">Archery</h4>
+<p>You gain a +2 bonus to attack rolls you make with ranged weapons</p>
+<h4 id="defense">Defense</h4>
+<p>While you are wearing armor, you gain a +1 bonus to AC</p>
+<h4 id="dueling">Dueling</h4>
+<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+<h4 id="great-weapon-fighting">Great Weapon Fighting</h4>
+<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit. </p>
+<h4 id="protection">Protection</h4>
+<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield. </p>
+<h4 id="two-weapon-fighting">Two-Weapon Fighting</h4>
+<p>When you engage in two-weapon fighting, you can add your ability modifier.</p>
+<h3 id="second-wind">Second Wind</h3>
+<hr />
+<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.</p>
+<h3 id="action-surge">Action Surge</h3>
+<hr />
+<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn. </p>
+<h3 id="martial-archetype">Martial Archetype</h3>
+<hr />
+<p>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level. </p>
+<h3 id="ability-score-improvement">Ability Score Improvement</h3>
+<hr />
+<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. </p>
+<h3 id="extra-attack">Extra Attack</h3>
+<hr />
+<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class. </p>
+<h3 id="indomitable">Indomitable</h3>
+<hr />
+<p>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</p>
+<h2 id="martial-archetypes">Martial Archetypes</h2>
+<p>Different fighters choose different approaches to perfecting their fighting prowess. The martial archetype you choose to emulate reflects your approach. </p>
+<h3 id="champion">Champion</h3>
+<hr />
+<p>The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows. </p>
+<h4 id="improved-critical">Improved Critical</h4>
+<p>Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20. </p>
+<h4 id="remarkable-athlete">Remarkable Athlete</h4>
+<p>Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn’t already use your proficiency bonus. In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier. </p>
+<h4 id="additional-fighting-style">Additional Fighting Style</h4>
+<p>At 10th level, you can choose a second option from the Fighting Style class feature.</p>
+<h4 id="superior-critical">Superior Critical</h4>
+<p>Starting at 15th level, your weapon attacks score a critical hit on a roll of 18–20. </p>
+<h4 id="survivor">Survivor</h4>
+<p>At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don’t gain this benefit if you have 0 hit points.</p>
+                    </div>
+                </div>
+        </div>
+
+        <footer>
+            <hr>
+            <div style="text-align: center; padding-left: 1em; padding-right: 1em;">
+                <p>Questions or comments can be directed to <a href="mailto:john@5thsrd.org">john@5thsrd.org</a>.</p>
+                
+                    <p>Rules provided by Wizards of the Coast under the <a href="/license">OGL 1.0a</a>.</p>
+                
+                <p>Check out the <a href="https://github.com/vitusventure/5thSRD/">GitHub</a> repo.  Website built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+                <p>Download the offline version of this site <a href="../../../5thsrd_offline.zip">here</a>.</p>
+            </div>
+        </footer>
+        <script src="/js/site.min.js"></script>
+    </body>
+</html>

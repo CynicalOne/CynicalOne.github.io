@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="rgb(216, 25, 33)">
+        <meta name="description" content="A web-based version of the 5th Edition SRD (System Reference Document)">
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+        <title>Madness - 5th Edition SRD</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+        <link rel="stylesheet" href="/css/site.min.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-72655850-1', '5thsrd.org');
+            ga('send', 'pageview');
+        </script>
+        
+        
+    </head>
+
+    <body>
+        <div id="content" class="pure-g">
+                <div id="top-nav" class="pure-menu pure-u-1 pure-u-lg-1-6">
+    <span class="pure-menu-heading pure-g ">
+        <a href="/" class="pure-u-1-3" class="pure-menu-link" id="home-link">5thSRD</a>
+        <div class="pure-u-2-3" id="menu-toggle">
+            <a class="pure-button button-small" href="javascript:void(0);" onclick="toggleMainNav()">
+                <svg viewBox="0 0 100 80" width="15" height="15">
+                    <rect width="100" height="20" fill="white"></rect>
+                    <rect y="30" width="100" height="20" fill="white"></rect>
+                    <rect y="60" width="100" height="20" fill="white"></rect>
+                </svg>
+            </a>
+        </div>
+    </span>
+    <ul class="pure-menu-list" id="main-nav-body">
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Adventuring</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/between_adventures/" class="pure-menu-link">Between Adventures</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/movement/" class="pure-menu-link">Movement</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/planes_of_existence/" class="pure-menu-link">The Planes of Existence</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/resting/" class="pure-menu-link">Resting</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/the_environment/" class="pure-menu-link">The Environment</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../adventuring/time/" class="pure-menu-link">Time</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Equipment</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/adventuring_gear/" class="pure-menu-link">Adventuring Gear</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/armor/" class="pure-menu-link">Armor</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/coins/" class="pure-menu-link">Coins</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/equipment_packs/" class="pure-menu-link">Equipment packs</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/mounts_and_vehicles/" class="pure-menu-link">Mounts and Vehicles</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/selling_treasure/" class="pure-menu-link">Selling Treasure</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/tools/" class="pure-menu-link">Tools</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/trade_goods/" class="pure-menu-link">Trade Goods</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../adventuring/equipment/weapons/" class="pure-menu-link">Weapons</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Character</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/alignment/" class="pure-menu-link">Alignment</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/backgrounds/" class="pure-menu-link">Backgrounds</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/fantasy-historical_pantheons/" class="pure-menu-link">Fantasy-Historical Pantheons</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../character/languages/" class="pure-menu-link">Languages</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Classes</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/barbarian/" class="pure-menu-link">Barbarian</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/bard/" class="pure-menu-link">Bard</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/cleric/" class="pure-menu-link">Cleric</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/druid/" class="pure-menu-link">Druid</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/fighter/" class="pure-menu-link">Fighter</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/monk/" class="pure-menu-link">Monk</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/paladin/" class="pure-menu-link">Paladin</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/ranger/" class="pure-menu-link">Ranger</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/rogue/" class="pure-menu-link">Rogue</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/sorcerer/" class="pure-menu-link">Sorcerer</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/warlock/" class="pure-menu-link">Warlock</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/classes/wizard/" class="pure-menu-link">Wizard</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Races</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/dragonborn/" class="pure-menu-link">Dragonborn</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/dwarf/" class="pure-menu-link">Dwarf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/elf/" class="pure-menu-link">Elf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/gnome/" class="pure-menu-link">Gnome</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/half-elf/" class="pure-menu-link">Half elf</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/half-orc/" class="pure-menu-link">Half-Orc</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/halfling/" class="pure-menu-link">Halfling</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/human/" class="pure-menu-link">Human</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../character/races/tiefling/" class="pure-menu-link">Tiefling</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Combat</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/actions_in_combat/" class="pure-menu-link">Actions in Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/cover/" class="pure-menu-link">Cover</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/damage_and_healing/" class="pure-menu-link">Damage and Healing</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/making_an_attack/" class="pure-menu-link">Making an Attack</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/mounted_combat/" class="pure-menu-link">Mounted Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/movement_and_position/" class="pure-menu-link">Movement and Position</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/order_of_combat/" class="pure-menu-link">The Order of Combat</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../combat/underwater_combat/" class="pure-menu-link">Underwater Combat</a>
+</li>
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item pure-menu-selected pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Gamemaster rules</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../diseases/" class="pure-menu-link">Diseases</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../legendary_creatures/" class="pure-menu-link">Legendary Creatures</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item pure-menu-selected">
+  <a href="./" class="pure-menu-link">Madness</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../magic_items/" class="pure-menu-link">Magic Items</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../monsters/" class="pure-menu-link">Monsters</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../nonplayer_characters/" class="pure-menu-link">Nonplayer Characters</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../objects/" class="pure-menu-link">Objects</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../poisons/" class="pure-menu-link">Poisons</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../sentient_magical_items/" class="pure-menu-link">Sentient Magic Items</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../traps/" class="pure-menu-link">Traps</a>
+</li>
+
+                        
+                            
+  
+  
+
+                        
+                            
+  
+  
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Templates</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../templates/halfdragon_template/" class="pure-menu-link">Half-Dragon Template</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Rules</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../rules/advantage_and_disadvantage/" class="pure-menu-link">Advantage and Disadvantage</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../rules/conditions/" class="pure-menu-link">Conditions</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../rules/expenses/" class="pure-menu-link">Expenses</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../rules/feats/" class="pure-menu-link">Feats</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../rules/inspiration/" class="pure-menu-link">Inspiration</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../rules/leveling_up/" class="pure-menu-link">Leveling Up</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../rules/multiclassing/" class="pure-menu-link">Multiclassing</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../rules/proficiency_bonus/" class="pure-menu-link">Proficiency Bonus</a>
+</li>
+
+                        
+                            
+  
+  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+    <a href="#" class="pure-menu-link">Abilities</a>
+    <ul class="pure-menu-children">
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../rules/abilities/ability_checks/" class="pure-menu-link">Ability Checks</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../rules/abilities/ability_scores/" class="pure-menu-link">Ability Scores</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../rules/abilities/charisma/" class="pure-menu-link">Charisma</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../rules/abilities/constitution/" class="pure-menu-link">Constitution</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../rules/abilities/dexterity/" class="pure-menu-link">Dexterity</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../rules/abilities/intelligence/" class="pure-menu-link">Intelligence</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../rules/abilities/saving_throws/" class="pure-menu-link">Saving Throws</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../rules/abilities/strength/" class="pure-menu-link">Strength</a>
+</li>
+
+      
+        
+<li class="pure-menu-item ">
+  <a href="../../rules/abilities/wisdom/" class="pure-menu-link">Wisdom</a>
+</li>
+
+      
+    </ul>
+  </li>
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+            
+                <li class="pure-menu-item  pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">Spellcasting</a>
+                    <ul class="pure-menu-children">
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../spellcasting/casting_a_spell/" class="pure-menu-link">Casting a Spell</a>
+</li>
+
+                        
+                            
+<li class="pure-menu-item ">
+  <a href="../../spellcasting/what_is_a_spell/" class="pure-menu-link">What Is a Spell?</a>
+</li>
+
+                        
+                            
+  
+  
+
+                        
+                    </ul>
+                </li>
+            
+        
+        <li class="pure-menu-item">
+            <a href="/search/" class="pure-menu-link"> Search </a>
+        </li>
+    </ul>
+</div>
+                <div class="pure-u-1 pure-u-lg-5-6">
+                    <div class="l-box">
+                        <div id="toc" class="pure-menu">
+    <ul class="pure-menu-list">
+    
+        <span class="pure-menu-heading">Madness</span>
+        
+        <li class="pure-menu-item ">
+            <a href="#going-mad" class="pure-menu-link">Going Mad</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#madness-effects" class="pure-menu-link">Madness Effects</a>
+        </li>
+        
+        <li class="pure-menu-item ">
+            <a href="#curing-madness" class="pure-menu-link">Curing Madness</a>
+        </li>
+        
+    
+    </ul>
+</div>
+
+                        <h1 id="madness">Madness</h1>
+<p>In a typical campaign, characters aren't driven mad by the horrors they face and the carnage they inflict day after day, but sometimes the stress of being an adventurer can be too much to bear. If your campaign has a strong horror theme, you might want to use madness as a way to reinforce that theme, emphasizing the extraordinarily horrific nature of the threats the adventurers face. </p>
+<h2 id="going-mad">Going Mad</h2>
+<p>Various magical effects can inflict madness on an otherwise stable mind. Certain spells, such as <strong><em>contact other plane</em></strong> and <strong><em>symbol</em></strong>, can cause insanity, and you can use the madness rules here instead of the spell effects of those spells. Diseases, poisons, and planar effects such as psychic wind or the howling winds of Pandemonium can all inflict madness. Some artifacts can also break the psyche of a character who uses or becomes attuned to them.  <br />
+Resisting a madness-inducing effect usually requires a Wisdom or Charisma saving throw. </p>
+<h2 id="madness-effects">Madness Effects</h2>
+<p>Madness can be short-term, long-term, or indefinite. Most relatively mundane effects impose short-term madness, which lasts for just a few minutes. More horrific effects or cumulative effects can result in long-term or indefinite madness.  <br />
+A character afflicted with <strong>short-term madness</strong> is subjected to an effect from the Short-Term Madness table for 1d10 minutes.  <br />
+A character afflicted with <strong>long-term madness</strong> is subjected to an effect from the Long-Term Madness table for 1d10 × 10 hours.  <br />
+A character afflicted with <strong>indefinite madness</strong> gains a new character flaw from the Indefinite Madness table that lasts until cured. </p>
+<h3 id="short-term-madness">Short-Term Madness</h3>
+<div class="responsive-table"><table class="pure-table pure-table-striped">
+<thead>
+<tr>
+<th>d100</th>
+<th>Effect (lasts 1d10 minutes)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01-20</td>
+<td>The character retreats into his or her mind and becomes paralyzed. The effect ends if the character takes any damage.</td>
+</tr>
+<tr>
+<td>21-30</td>
+<td>The character becomes incapacitated and spends the duration screaming, laughing, or weeping.</td>
+</tr>
+<tr>
+<td>21-40</td>
+<td>The character becomes frightened and must use his or her action and movement each round to flee from the source of the fear.</td>
+</tr>
+<tr>
+<td>41-50</td>
+<td>The character begins babbling and is incapable of normal speech or spellcasting.</td>
+</tr>
+<tr>
+<td>51-60</td>
+<td>The character must use his or her action each round to attack the nearest creature.</td>
+</tr>
+<tr>
+<td>51-70</td>
+<td>The character experiences vivid hallucinations and has disadvantage on ability checks.</td>
+</tr>
+<tr>
+<td>71-75</td>
+<td>The character does whatever anyone tells him or her to do that isn't obviously self-destructive.</td>
+</tr>
+<tr>
+<td>75-80</td>
+<td>The character experiences an overpowering urge to eat something strange such as dirt, slime, or offal.</td>
+</tr>
+<tr>
+<td>81-90</td>
+<td>The character is stunned.</td>
+</tr>
+<tr>
+<td>91-100</td>
+<td>The character falls unconscious.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="long-term-madness">Long-Term Madness</h3>
+<div class="responsive-table"><table class="pure-table pure-table-striped">
+<thead>
+<tr>
+<th>d100</th>
+<th>Effect (lasts 1d10 x 10 hours)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01-10</td>
+<td>The character feels compelled to repeat a specific activity over and over, such as washing hands, touching things, praying, or counting coins.</td>
+</tr>
+<tr>
+<td>11-20</td>
+<td>The character experiences vivid hallucinations and has disadvantage on ability checks.</td>
+</tr>
+<tr>
+<td>21-30</td>
+<td>The character suffers extreme paranoia. The character has disadvantage on Wisdom and Charisma checks.</td>
+</tr>
+<tr>
+<td>31-40</td>
+<td>The character regards something (usually the source of madness) with intense revulsion, as if affected by the antipathy effect of the <strong><em>antipathy/sympathy</em></strong> spell.</td>
+</tr>
+<tr>
+<td>41-45</td>
+<td>The character experiences a powerful delusion. Choose a potion. The character imagines that he or she is under its effects.</td>
+</tr>
+<tr>
+<td>46-55</td>
+<td>The character becomes attached to a "lucky charm," such as a person or an object, and has disadvantage on attack rolls, ability checks, and saving throws while more than 30 feet from it.</td>
+</tr>
+<tr>
+<td>56-65</td>
+<td>The character is blinded (25%) or deafened (75%).</td>
+</tr>
+<tr>
+<td>66-75</td>
+<td>The character experiences uncontrollable tremors or tics, which impose disadvantage on attack rolls, ability checks, and saving throws that involve Strength or Dexterity.</td>
+</tr>
+<tr>
+<td>76-85</td>
+<td>The character suffers from partial amnesia. The character knows who he or she is and retains racial traits and class features, but doesn't recognize other people or remember anything that happened before the madness took effect.</td>
+</tr>
+<tr>
+<td>86-90</td>
+<td>Whenever the character takes damage, he or she must succeed on a DC 15 Wisdom saving throw or be affected as though he or she failed a saving throw against the confusion spell. The confusion effect lasts for 1 minute.</td>
+</tr>
+<tr>
+<td>91-95</td>
+<td>The character loses the ability to speak.</td>
+</tr>
+<tr>
+<td>96-100</td>
+<td>The character falls unconscious. No amount of jostling or damage can wake the character.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="indefinite-madness">Indefinite Madness</h3>
+<div class="responsive-table"><table class="pure-table pure-table-striped">
+<thead>
+<tr>
+<th>d100</th>
+<th>Flaw (lasts until cured)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01-15</td>
+<td>"Being drunk keeps me sane."</td>
+</tr>
+<tr>
+<td>16-25</td>
+<td>"I keep whatever I find."</td>
+</tr>
+<tr>
+<td>26-30</td>
+<td>"I try to become more like someone else I know--adopting his or her style of dress, mannerisms, and name."</td>
+</tr>
+<tr>
+<td>31-35</td>
+<td>"I must bend the truth, exaggerate, or outright lie to be interesting to other people."</td>
+</tr>
+<tr>
+<td>36-45</td>
+<td>"Achieving my goal is the only thing of interest to me, and I'll ignore everything else to pursue it."</td>
+</tr>
+<tr>
+<td>46-50</td>
+<td>"I find it hard to care about anything that goes on around me."</td>
+</tr>
+<tr>
+<td>51-55</td>
+<td>"I don't like the way people judge me all the time."</td>
+</tr>
+<tr>
+<td>56-70</td>
+<td>"I am the smartest, wisest, strongest, fastest, and most beautiful person I know."</td>
+</tr>
+<tr>
+<td>71-80</td>
+<td>"I am convinced that powerful enemies are hunting me, and their agents are everywhere I go. I am sure they're watching me all the time."</td>
+</tr>
+<tr>
+<td>81-85</td>
+<td>"There's only one person I can trust. And only I can see this special friend."</td>
+</tr>
+<tr>
+<td>86-95</td>
+<td>"I can't take anything seriously. The more serious the situation, the funnier I find it."</td>
+</tr>
+<tr>
+<td>96-100</td>
+<td>"I've discovered that I really like killing people."</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="curing-madness">Curing Madness</h2>
+<p>A <strong><em>calm emotions</em></strong> spell can suppress the effects of madness, while a <strong><em>lesser restoration</em></strong> spell can rid a character of a short-term or long-term madness. Depending on the source of the madness, <strong><em>remove curse</em></strong> or <strong><em>dispel evil</em></strong> might also prove effective. A <strong><em>greater restoration</em></strong> spell or more powerful magic is required to rid a character of indefinite madness.</p>
+                    </div>
+                </div>
+        </div>
+
+        <footer>
+            <hr>
+            <div style="text-align: center; padding-left: 1em; padding-right: 1em;">
+                <p>Questions or comments can be directed to <a href="mailto:john@5thsrd.org">john@5thsrd.org</a>.</p>
+                
+                    <p>Rules provided by Wizards of the Coast under the <a href="/license">OGL 1.0a</a>.</p>
+                
+                <p>Check out the <a href="https://github.com/vitusventure/5thSRD/">GitHub</a> repo.  Website built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+                <p>Download the offline version of this site <a href="../../5thsrd_offline.zip">here</a>.</p>
+            </div>
+        </footer>
+        <script src="/js/site.min.js"></script>
+    </body>
+</html>
